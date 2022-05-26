@@ -30,6 +30,6 @@ function onUpdate(elapsed)
 songPos = getSongPosition()
 local currentBeat = (songPos/5000)*(curBpm/60)
 doTweenX('backgrounds/accalorent2', 'backgrounds/accalorent2.scale', 0 - 50*math.sin((currentBeat+1*0.1)*math.pi), 6)
-doTweenY('backgrounds/accalorent 2', 'backgrounds/accalorent 2.scale', 0 - 31*math.sin((currentBeat+1*1)*math.pi), 6)
+doTweenY('backgrounds/accalorent 2', 'backgrounds/accalorent2.scale', 0 - 31*math.sin((currentBeat+1*1)*math.pi), 6)
 
 end
